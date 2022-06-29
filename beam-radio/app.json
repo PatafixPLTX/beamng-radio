@@ -1,0 +1,10 @@
+{
+    "name" : "Beam-Radio",
+    "author": "Patafix",
+    "version": "1.0",
+    "description": "Built-in radio in Beamng Drive",
+    "directive": "Beam-Radio",
+    "domElement": "<beam-radio></beam-radio>",
+    "css": { "width": "150px", "height": "150px", "top": "200px", "left": "200px" },
+    "preserveAspectRatio": false
+  }
