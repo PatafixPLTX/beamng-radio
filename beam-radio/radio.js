@@ -1,3 +1,5 @@
+// ###-- LIST OF ALL RADIO STATIONS (78 pistes) --### //
+
 // LIST OF RADIO STATIONS IN THE FRANCE (24 pistes)
 
 var franceinter = new Howl({
@@ -161,7 +163,7 @@ var mfm = new Howl({
     
 });
 
-// LIST OF RADIO STATIONS IN THE BELGIUM (28 pistes)
+// LIST OF RADIO STATIONS IN THE BELGIUM (26 pistes)
 
 var belrtl = new Howl({
     src: ['http://belrtl.ice.infomaniak.ch/belrtl-mp3-128.mp3'],
@@ -431,8 +433,126 @@ var CKBEFM = new Howl({
     
 });
 
-// LIST OF RADIO STATIONS IN THE SWITZERLAND (24 pistes)
+// LIST OF RADIO STATIONS IN THE SWITZERLAND (17 pistes)
 
+var rtsla1ere = new Howl({
+    src: ['http://stream.srg-ssr.ch/m/la-1ere/mp3_128'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var rtsespace2 = new Howl({
+    src: ['http://stream.srg-ssr.ch/m/espace-2/mp3_128'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var rtscouleur3 = new Howl({
+    src: ['http://stream.srg-ssr.ch/m/couleur3/mp3_128'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var rtsoptionmusique = new Howl({
+    src: ['http://stream.srg-ssr.ch/m/option-musique/mp3_128'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var srf1 = new Howl({
+    src: ['http://stream.srg-ssr.ch/m/drs1/mp3_128'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var srf2 = new Howl({
+    src: ['http://stream.srg-ssr.ch/m/drs2/mp3_128'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var srf3 = new Howl({
+    src: ['http://stream.srg-ssr.ch/m/drs3/mp3_128'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var srf4news = new Howl({
+    src: ['http://stream.srg-ssr.ch/m/drs4news/mp3_128'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var srfmw = new Howl({
+    src: ['http://stream.srg-ssr.ch/m/drsmw/mp3_128'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var srtvirus = new Howl({
+    src: ['http://stream.srg-ssr.ch/m/drsvirus/mp3_128'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var reteuno = new Howl({
+    src: ['http://stream.srg-ssr.ch/reteuno/mp3_128.m3u'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var retedue = new Howl({
+    src: ['http://stream.srg-ssr.ch/retedue/mp3_128.m3u'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var retetre = new Howl({
+    src: ['http://stream.srg-ssr.ch/retetre/mp3_128.m3u'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var rtrradio = new Howl({
+    src: ['http://stream.srg-ssr.ch/m/rr/mp3_128'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var radioswissclassic = new Howl({
+    src: [' http://www.radioswissclassic.ch/fr/live/mp3.m3u'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var radioswissjazz = new Howl({
+    src: ['http://www.radioswissjazz.ch/live/mp3.m3u'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var radioswisspop = new Howl({
+    src: ['http://www.radioswisspop.ch/live/mp3.m3u'],
+    html5: true,
+    volume: 1.0,
+    
+});
 
 
 
