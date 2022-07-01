@@ -338,9 +338,98 @@ var stubru = new Howl({
     
 });
 
-// LIST OF RADIO STATIONS IN THE QUEBEC (24 pistes)
+// LIST OF RADIO STATIONS IN THE QUEBEC (13 pistes)
 
+var CHMPFM = new Howl({
+    src: ['http://cogecomedia.leanstream.co/CHMPFM-MP3'],
+    html5: true,
+    volume: 1.0,
+    
+});
 
+var CKOFFM = new Howl({
+    src: ['http://cogecomedia.leanstream.co/CKOFFM-MP3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var CKOBFM = new Howl({
+    src: ['http://cogecomedia.leanstream.co/CKOBFM-MP3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var CKOYFM = new Howl({
+    src: ['http://cogecomedia.leanstream.co/CKOYFM-MP3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var CIMEFM = new Howl({
+    src: ['http://cogecomedia.leanstream.co/CIMEFM-MP3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var CKOIFM = new Howl({
+    src: ['http://cogecomedia.leanstream.co/CKOIFM-MP3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var CJMFFM = new Howl({
+    src: ['http://cogecomedia.leanstream.co/CJMFFM-MP3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var CFOMFM = new Howl({
+    src: ['http://cogecomedia.leanstream.co/CFOMFM-MP3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var CKACAM = new Howl({
+    src: ['http://cogecomedia.leanstream.co/CKACAM-MP3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var CJEBFM = new Howl({
+    src: ['http://cogecomedia.leanstream.co/CJEBFM-MP3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var CFGLFM = new Howl({
+    src: ['http://cogecomedia.leanstream.co/CFGLFM-MP3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var CFGEFM = new Howl({
+    src: ['http://cogecomedia.leanstream.co/CFGEFM-MP3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var CKBEFM = new Howl({
+    src: ['http://cogecomedia.leanstream.co/CKBEFM-MP3'],
+    html5: true,
+    volume: 1.0,
+    
+});
 
 // LIST OF RADIO STATIONS IN THE SWITZERLAND (24 pistes)
 
