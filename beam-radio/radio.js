@@ -1,37 +1,3 @@
-//                                .....                                     
-//                                @@@@@&@@@@@@@@@@@@@@@@@@@@*                          
-//                          .@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%                     
-//                       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&&&&/                 
-//                    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&&#(((%%*              
-//                 (@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&%((//**((&%            
-//               (@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&%#((/(//(#(%%@&          
-//             ,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&((/(//(#%%%%&@@@@&        
-//            &@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&%#(///((#%%&&@@@@@@@@@.      
-//           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&%##(((##%&&&@@@@@@@@@@@@&*     
-//          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&@&%(((%&@@@@@@@((#%&&@@@@@@@@@@@@@@@@@@,    
-//         @@@@@@@@@@@@@@@@@@@@@@@@@@@@%/((((//////////%&@@@&@@@@@@@@@@@@@@@@@@@@@@.   
-//        ,@@@@@@@@@@@@@@@@@@@@@@@@@@(/((((((((((((/////(#@@@@@@@@@@@@@@@@@@@@@@@@@@   
-//        @@@@@@@@@@@@@@@@@@@@@@@@@@/((((((((////////(/////@@@@@@@@@@@@@@@@@@@@@@@@@.  
-//        @@@@@@@@@@@@@@@@@@@@@@@@@((((((((/(//(((/////////(@@@@@@@@@@@@@@@@@@@@@@@@/  
-//        @@@@@@@@@@@@@@@@@@@@@@@@@((((//((((/*.#(////////(/@@@@@@@@@@@@@@@@@@@@@@@@(  
-//        @@@@@@@@@@@@@@@@@@@@@@@@@(((((((//(/(///(((((((//#@@@@@@@@@@@@@@@@@@@@@@@@/  
-//        &@@@@@@@@@@@@@@@@@@@@@@@@@(((/(*(///////(((((((/(@@@@@@@@@@@@@@@@@@@@@@@@@   
-//        ,@@@@@@@@@@@@@@@@@@@@&@@@@@%((((/(//////(((((((&@@@@@@@@@@@@@@@@@@@@@@@@@&   
-//         @@@@@@@@@@@@@@@@@@@&&%%&@@@@@(((((((((((((/%@@@@@@@@@@@@@@@@@@@@@@@@@@@@    
-//          @@@@@@@@@@@@&&&@&&%%####%@@@@@@@@@&&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.    
-//           @@@@@@@@@&&&&%%%##(%##%&&&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@,     
-//            &@@@@@&&&%%%%######%%&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       
-//             ,@@&&&%%##%#####%%%&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#        
-//               (@&%##%###%#%%%&&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&          
-//                 /&%((##%%%%&&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&            
-//                    @&##%%&&&&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@,              
-//                       &@@@@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@,                 
-//                          .@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*.                    
-//                                #@@@@@@@@@@@@@@@@@@@@@@@@@                           
-//                                                  .                                  
-
-
-
 // LIST OF RADIO STATIONS IN THE FRANCE (24 pistes)
 
 var franceinter = new Howl({
@@ -195,9 +161,182 @@ var mfm = new Howl({
     
 });
 
-// LIST OF RADIO STATIONS IN THE BELGIUM (24 pistes)
+// LIST OF RADIO STATIONS IN THE BELGIUM (28 pistes)
 
-// http://fluxradios.blogspot.com/
+var belrtl = new Howl({
+    src: ['http://belrtl.ice.infomaniak.ch/belrtl-mp3-128.mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var cheriefmbel = new Howl({
+    src: ['http://streamingp.shoutcast.com/Cherie-mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var classic21bel = new Howl({
+    src: ['http://radios.rtbf.be/classic21-128.mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var dhradio = new Howl({
+    src: [' http://stream.rcs.revma.com/anew1ctrgzzuv'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var funradiobel = new Howl({
+    src: [' http://live.funradio.be/funradiobe-high.mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var jam = new Howl({
+    src: [' http://radios.rtbf.be/jam-128.mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var laprem1erebxl = new Howl({
+    src: [' http://radios.rtbf.be/laprem1erebxl-128.mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var laprem1ere = new Howl({
+    src: [' http://radios.rtbf.be/laprem1ere-128.mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var musiq3 = new Howl({
+    src: ['http://radios.rtbf.be/musiq3-128.mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var nostalgiebel = new Howl({
+    src: ['http://streamingp.shoutcast.com/NostalgiePremium-mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var nostaplus = new Howl({
+    src: [' http://streamingp.shoutcast.com/nostaplus-mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var nrjbel = new Howl({
+    src: ['  http://streamingp.shoutcast.com/NRJ'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var radiocontact = new Howl({
+    src: ['  http://audiostream.rtl.be/contactfr'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var rcfbe = new Howl({
+    src: ['http://rcf.streamakaci.com/rcfbe.mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var dashitradio = new Howl({
+    src: ['http://stream.dashitradio.de/dashitradio/mp3-128/stream.mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var brf1 = new Howl({
+    src: [' http://streaming.brf.be/brf1-high.mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var brf2 = new Howl({
+    src: ['http://streaming.brf.be/brf2-high.mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var ketnetradio = new Howl({
+    src: ['http://icecast.vrtcdn.be/ketnetradio-high.mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var klara = new Howl({
+    src: ['http://icecast.vrtcdn.be/klara-high.mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var klaracontinuo = new Howl({
+    src: ['http://icecast.vrtcdn.be/klaracontinuo-high.mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var mnm = new Howl({
+    src: ['http://icecast.vrtcdn.be/mnm-high.mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var mnm_hits = new Howl({
+    src: ['http://icecast.vrtcdn.be/mnm_hits-high.mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var radio1 = new Howl({
+    src: ['http://icecast.vrtcdn.be/radio1-high.mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var sporza = new Howl({
+    src: ['http://icecast.vrtcdn.be/sporza-high.mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
+
+var stubru = new Howl({
+    src: ['http://icecast.vrtcdn.be/stubru-high.mp3'],
+    html5: true,
+    volume: 1.0,
+    
+});
 
 // LIST OF RADIO STATIONS IN THE QUEBEC (24 pistes)
 
@@ -213,4 +352,4 @@ var mfm = new Howl({
 
 // USER CONTROLS
 
-virginradio.play()
+franceinter.play()
